@@ -163,6 +163,17 @@ html,body{
     font-size: large;
     font-family: 'Lucida Sans Unicode';
 }
+.ee{
+    padding-top: 8vh;
+}
+.aboutmesec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:78%;
+    padding-left: 20vw;
+}
 .pp{
     padding-left:0vw;
      line-height: 10vh;
