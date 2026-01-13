@@ -10,7 +10,7 @@ html,body{
 #page1{
     height:100vh;
     width:100vw;
-    background-color: rgba(0, 0, 0, 0.966);
+    background-color:black;
 }
 #navbar{
     display: flex;
@@ -63,12 +63,94 @@ html,body{
   text-decoration: underline;
 }
 #gigs{
+    height:10vh;
     padding-left:3vw;
     padding-top:4vh;
     display: flex;
     flex-direction: row;
     gap:20vw;
     font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#seconds{
+    color: #fff;
+    padding-right: 10vw;
+    background-color: black;
+    max-width: 100%;
+    min-height: 100vh;
+    padding-top:10vw;
+
+}
+
+.elem {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5.5vw 3vw;
+    padding-right: 0;
+
+    border-top: 1px solid #888;
+}
+
+.elem h1 {
+    text-transform: uppercase;
+    font-size: 7.6vw;
+    opacity: .7;
+}
+.elem img {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+}
+.skills-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+}
+
+.track {
+  display: flex;
+  gap: 4vw;
+  white-space: nowrap;
+  color:aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.track span {
+  font-size: 4vw;
+  font-weight: 600;
+  text-transform: uppercase;
+  opacity: 0.95;
+  transition: all 0.9s ease;
+
+
+}
+.aboutmesec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:78%;
+    padding-left: 20vw;
+}
+.ii{
+    border-radius: 50%;                     
+}
+.myinfo{
+    color:rgb(250, 248, 246);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.ee{
+    padding-left: 4vw;
 }
 @media (max-width:600px) {
 #navbar{
@@ -132,4 +214,29 @@ html,body{
 #main{
     max-width: 100vw;
 }
+}
+#page2{
+    min-height:100vh;
+    max-width:100%;
+    background-color:black;
+}
+#page1{
+    height:100vh;
+    max-width:100%;
+    background-color: black;
+}
+#page4{
+    height:100vh;
+    max-width:100%;
+    background-color: black;
+}
+#page3{
+    height:100vh;
+    max-width:100%;
+    background-color: black;
+}
+#page5{
+    height:25vh;
+    max-width: 100%;
+    background-color: black;
 }
